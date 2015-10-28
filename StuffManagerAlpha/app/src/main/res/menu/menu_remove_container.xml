@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.franekjemiolo.stuffmanageralpha.RemoveContainerActivity">
+
+    <item android:id="@+id/action_remove_containers"
+        android:icon="@drawable/ic_delete_white_48dp"
+        android:title="Remove containers"
+        android:orderInCategory="100" app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_sort_by_name" android:title="Sort by name"
+        android:orderInCategory="101" app:showAsAction="never" />
+    <item android:id="@+id/action_sort_by_date" android:title="Sort by creation date"
+        android:orderInCategory="102" app:showAsAction="never" />
+
+</menu>

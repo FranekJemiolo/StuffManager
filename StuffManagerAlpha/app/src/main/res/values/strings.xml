@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Stuff Manager Alpha</string>
+
+    <string name="insert_name">Please write below the name of the container/item</string>
+    <string name="insert_container_name">Please write below the name of the container</string>
+    <string name="insert_item_name">Please write below the name of the item</string>
+    <string name="action_add_container">Create new container</string>
+    <string name="action_add_item">Create new item</string>
+    <string name="action_settings">Settings</string>
+    <string name="default_name">Default name</string>
+    <string name="check_text_view">Create item as container?</string>
+    <string name="take_photo">Click to take photo of the item/container </string>
+    <string name="take_photo_container">Click to take photo of the container </string>
+    <string name="take_photo_item">Click to take photo of the item </string>
+
+    <string name="gps_location">Click to take the current gps location.</string>
+    <string name="longitude_description">Longitude: </string>
+    <string name="latitude_description">Latitude: </string>
+    <string name="save_button">Save container</string>
+    <string name="title_activity_add_container">AddContainerActivity</string>
+    <string name="title_activity_detailed_container_view">DetailedContainerViewActivity</string>
+    <string name="show_map_button">Show container on map</string>
+    <string name="save_item_button">Save item</string>
+    <string name="no_location_text">There is no location given for this item/container</string>
+    <string name="no_location_text_container">There is no location given for this container</string>
+    <string name="no_location_text_item">There is no location given for this item</string>
+    <string name="insert_number">Please insert how many items of this kind are you adding?</string>
+
+    <string name="auto_location_text">Auto download gps-coordinates</string>
+    <string name="location_enabled">GPS_location_enabled</string>
+    <string name="sorting_text">Choose sorting order</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="dialog_enable_gps">GPS on your device is not enabled</string>
+    <string name="dialog_go_to_settings">Go to settings</string>
+    <string name="dialog_disable_gps">Disable auto-location</string>
+
+    <string name="search_title">Find container or item</string>
+    <string name="search_hint">What are you looking for?</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="title_activity_remove_container">RemoveContainerActivity</string>
+
+    <string name="action_remove">Remove</string>
+    <string name="title_activity_edit_container">EditContainerActivity</string>
+
+    <string name="edit_container_name">How do you want to rename your container?</string>
+    <string name="edit_item_name">How do you want to rename your item?</string>
+
+    <string name="dialog_remove_item">Do you really want to remove this item?</string>
+    <string name="dialog_remove_item_yes">Yes</string>
+    <string name="dialog_remove_item_no">No</string>
+
+    <string name="dialog_remove_containers">Do you really want to remove this containers and all of theirs subcontainers and items?</string>
+    <string name="dialog_remove_containers_yes">Yes</string>
+    <string name="dialog_remove_containers_no">No</string>
+</resources>

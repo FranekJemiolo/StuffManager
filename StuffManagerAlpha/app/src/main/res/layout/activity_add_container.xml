@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.franekjemiolo.stuffmanageralpha.AddContainerActivity"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/insertTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/insert_name"
+                android:focusable="false"/>
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/default_name"
+                android:inputType="text"
+                android:layout_below="@id/insertTextView" />
+
+            <TextView
+                android:id="@+id/numberTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editText"
+                android:text="@string/insert_number"/>
+
+            <EditText
+                android:id="@+id/numberEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/numberTextView"
+                android:inputType="number"
+                />
+
+            <!--<TextView
+                android:id="@+id/checkTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/check_text_view"
+                android:layout_below="@id/editText" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/checkTextView" />-->
+
+            <Button
+                android:id="@+id/takePhotoButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/take_photo"
+                android:layout_below="@id/numberEditText"
+                android:onClick="dispatchTakePictureIntent"/>
+
+            <ImageView
+                android:id="@+id/takePhotoImageView"
+                android:layout_width="@dimen/add_container_image"
+                android:layout_height="@dimen/add_container_image"
+                android:layout_below="@id/takePhotoButton" />
+
+            <!--<Button
+                android:id="@+id/takeGPSLocationButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gps_location"
+                android:layout_below="@id/takePhotoImageView" />-->
+
+            <TextView
+                android:id="@+id/longitudeDescriptionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/longitude_description"
+                android:layout_below="@id/takePhotoImageView"/>
+
+            <TextView
+                android:id="@+id/longitudeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/longitudeDescriptionText" />
+
+            <TextView
+                android:id="@+id/latitudeDescriptionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/latitude_description"
+                android:layout_below="@id/longitudeText"/>
+
+            <TextView
+                android:id="@+id/latitudeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/latitudeDescriptionText" />
+
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/save_button"
+                android:layout_below="@id/latitudeText"
+                android:onClick="saveContainer" />
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

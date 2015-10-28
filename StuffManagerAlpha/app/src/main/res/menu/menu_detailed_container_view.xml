@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.franekjemiolo.stuffmanageralpha.DetailedContainerViewActivity">
+
+    <item android:id="@+id/search"
+        android:title="@string/search_title"
+        android:icon="@drawable/ic_search_white_48dp"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="android.widget.SearchView"
+        android:orderInCategory="100" />
+
+    <item android:id="@+id/action_add_container" android:title="@string/action_add_container"
+        android:orderInCategory="101" app:showAsAction="never" />
+    <item android:id="@+id/action_add_item" android:title="@string/action_add_item"
+        android:orderInCategory="102" app:showAsAction="never" />
+    <item android:id="@+id/action_sort_by_name" android:title="Sort by name"
+        android:orderInCategory="103" app:showAsAction="never" />
+    <item android:id="@+id/action_sort_by_date" android:title="Sort by creation date"
+        android:orderInCategory="104" app:showAsAction="never" />
+    <item android:id="@+id/action_edit" android:title="Edit"
+        android:orderInCategory="105" app:showAsAction="never" />
+    <item android:id="@+id/action_remove" android:title="@string/action_remove"
+        android:orderInCategory="106" app:showAsAction="never" />
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="107" app:showAsAction="never" />
+</menu>
